@@ -8,5 +8,5 @@ Seemingly a blog post about how I made a discord bot, but it's actually an IP lo
 I then also take the user agent of the client, just for good measure.  
 -  Make a discord embed from an assoc. array and json encode it.
 - Set up a discord webhook on a server.
-- Have a curl object send the json object to a discord webhook, under the `$url` variable.
-- Host the app on heroku.
+- Create an app on heroku.
+- Have a curl object send the json object to a discord webhook, under the `$url` variable. --> Set with : `heroku config:set url=webhook_url`
